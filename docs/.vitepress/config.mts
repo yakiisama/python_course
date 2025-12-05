@@ -63,7 +63,7 @@ export default defineConfig({
 
     footer: {
       message: '用 ❤️ 制作的 Python 入门课程',
-      copyright: 'Copyright © 2024'
+      copyright: 'Copyright © 2025'
     },
 
     outline: {
