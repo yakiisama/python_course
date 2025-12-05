@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: 开始学习 🚀
       link: /guide/introduction
-    # - theme: alt
-    #   text: 查看练习 💪
-    #   link: /practice/exercises
 
 features:
   - icon: 🎯
