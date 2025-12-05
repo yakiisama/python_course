@@ -57,9 +57,9 @@ export default defineConfig({
       ]
     },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com' }
+    // ],
 
     footer: {
       message: '用 ❤️ 制作的 Python 入门课程',
