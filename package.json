@@ -1,0 +1,17 @@
+{
+  "name": "python-course",
+  "version": "1.0.0",
+  "description": "面向小白的 Python 入门课程",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": ["python", "tutorial", "course", "beginner"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  }
+}
