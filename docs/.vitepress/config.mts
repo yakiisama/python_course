@@ -6,6 +6,7 @@ const guideSection = {
   items: [
     { text: '什么是 Python？', link: '/guide/introduction' },
     { text: '安装 Python', link: '/guide/installation' },
+    { text: 'Cursor 使用指南', link: '/guide/cursor-guide' },
   ]
 }
 
@@ -53,18 +54,18 @@ export default defineConfig({
       '/': [],
       '/guide/': [
         { ...guideSection, collapsed: false },
-        // { ...basicsSection, collapsed: true },
-        // { ...practiceSection, collapsed: true }
+        { ...basicsSection, collapsed: true },
+        { ...practiceSection, collapsed: true }
       ],
       '/basics/': [
         { ...guideSection, collapsed: true },
-        // { ...basicsSection, collapsed: false },
-        // { ...practiceSection, collapsed: true }
+        { ...basicsSection, collapsed: false },
+        { ...practiceSection, collapsed: true }
       ],
       '/practice/': [
         { ...guideSection, collapsed: true },
-        // { ...basicsSection, collapsed: true },
-        // { ...practiceSection, collapsed: false }
+        { ...basicsSection, collapsed: true },
+        { ...practiceSection, collapsed: false }
       ]
     },
 
